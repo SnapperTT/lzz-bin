@@ -228,47 +228,47 @@ The options are:
 ```
 The method the parser uses to recover from syntax errors is configured at runtime. The recover commands are specified with the -r option. The commands must be comma delimited. The recover commands are:
 ```
-    i:token
-        Insert a specific token.
+i:token
+	Insert a specific token.
 
-    i:[token,token,...]
-        Insert a specific sequence of tokens.
+i:[token,token,...]
+	Insert a specific sequence of tokens.
 
-    d
-        Delete one token.
+d
+	Delete one token.
 
-    d:max_num
-        Delete at most max_num tokens.
+d:max_num
+	Delete at most max_num tokens.
 
-    d:token
-        Delete a specific token.
+d:token
+	Delete a specific token.
 
-    r:token
-        Replace one token with a specific token.
+r:token
+	Replace one token with a specific token.
 
-    r:token:max_num
-        Replace at most max_num tokens with a specific token.
+r:token:max_num
+	Replace at most max_num tokens with a specific token.
 
-    r:token:token
-        Replace a specific token (the second) with a specific token (the first).
+r:token:token
+	Replace a specific token (the second) with a specific token (the first).
 
-    r:[token,token,...]
-        Replace one token with a specific sequence of tokens.
+r:[token,token,...]
+	Replace one token with a specific sequence of tokens.
 
-    r:[token,token,...]:max_num
-        Replace at most max_num tokens with a specific sequence of tokens.
+r:[token,token,...]:max_num
+	Replace at most max_num tokens with a specific sequence of tokens.
 
-    r:[token,token,...]:token
-        Replace a specific token with a specific sequence of tokens.
+r:[token,token,...]:token
+	Replace a specific token with a specific sequence of tokens.
 
-    m
-        Move one token after one token to the right (swap token with next token).
+m
+	Move one token after one token to the right (swap token with next token).
 
-    m:max_move
-        Move one token after at most max_move tokens to the right.
+m:max_move
+	Move one token after at most max_move tokens to the right.
 
-    m:max_move:max_num
-        Move at most max_num tokens after at most max_move tokens to the right. 
+m:max_move:max_num
+	Move at most max_num tokens after at most max_move tokens to the right. 
 ```
 Where token is a token name. The -T option prints the token names and their lexemes. Token names are not case sensitive.
 
