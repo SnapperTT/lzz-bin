@@ -1,4 +1,4 @@
-This is an unofficial repo that stores precompiled lzz 2.8.2 linux + windows binaries and documentation from the original website converted to markdown. This is useful for distributing projects that require lzz2 to build without having to build lzz2 itself.
+This is an unofficial repo that stores precompiled lzz 2.8.2 linux + windows binaries and documentation from the original (now defunct) website converted to markdown. This is useful for distributing projects that require lzz2 to build without having to build lzz2 itself.
 
 For the current source for version 3, see [the official repo](https://github.com/mjspncr/lzz3).
 
