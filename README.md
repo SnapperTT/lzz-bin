@@ -2,7 +2,11 @@ This is an unofficial repo that stores precompiled lzz 2.8.2 linux + windows bin
 
 For the current source for version 3, see [the official repo](https://github.com/mjspncr/lzz3).
 
-For lzz2 source, see [this mirror](https://github.com/driedfruit/lzz).
+For lzz2 source, see [this mirror](https://github.com/driedfruit/lzz). Alternatively, I have provided the source from the old website via the wayback machine.
+
+lzz is a 64 linux executable compiled with `g++ -O3 -s --std=c++11 lzz_2_8_2_src_gen/*.cpp -o lzz`
+lzz32 is the original binary from the website
+lzz.exe is the original executable from the website
 
 # Lzz: The Lazy C++ Programmer's Tool
 Lzz is a tool that automates many onerous C++ programming tasks. It can save you a lot of time and make coding more enjoyable. Given a sequence of declarations Lzz will generate your header and source files. For example, given the following code:
